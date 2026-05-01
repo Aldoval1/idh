@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compassionate Leadership - The Architecture of Leadership</title>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700;800&family=Newsreader:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">ARCH.</a>
+        <div class="nav-links">
+            <a href="index.html" class="en">Home</a>
+            <a href="index.html" class="es">Inicio</a>
+            <button id="langToggle" class="lang-toggle">EN / ES</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero fade-in">
+            <p class="hero-subtitle" style="margin-bottom: 0.5rem; font-size: 1rem; letter-spacing: 0.1em; text-transform: uppercase;">Special Olympics</p>
+            <h1 class="hero-title en">Compassionate Leadership</h1>
+            <h1 class="hero-title es">Liderazgo Compasivo</h1>
+
+            <div class="photo-placeholder">
+                <span class="en">{Insert Photo Here: Action shot of service event}</span>
+                <span class="es">{Insertar foto aquí: Foto de acción del evento de servicio}</span>
+            </div>
+
+            <p class="body-text en">My involvement with the Special Olympics highlights a leadership style grounded in social responsibility and adaptability. Success here is measured by the ability to support diverse needs in real-time.</p>
+            <p class="body-text es">Mi participación en las Olimpiadas Especiales destaca un estilo de liderazgo basado en la responsabilidad social y la adaptabilidad. Aquí, el éxito se mide por la capacidad de apoyar diversas necesidades en tiempo real.</p>
+        </section>
+
+        <section class="interactive-section fade-in">
+            <h2 class="interactive-title en">Leadership Interactive</h2>
+            <h2 class="interactive-title es">Interactivo de Liderazgo</h2>
+
+            <div class="traits-grid">
+                <button class="trait-btn active" data-target="trait-empathy">
+                    <span class="en">Empathy</span><span class="es">Empatía</span>
+                </button>
+                <button class="trait-btn" data-target="trait-inclusion">
+                    <span class="en">Inclusion</span><span class="es">Inclusión</span>
+                </button>
+                <button class="trait-btn" data-target="trait-adaptability">
+                    <span class="en">Adaptability</span><span class="es">Adaptabilidad</span>
+                </button>
+            </div>
+
+            <div id="trait-empathy" class="trait-content active">
+                <h3 class="en" style="margin-bottom: 1rem; font-family: var(--font-heading);">Empathy in Action</h3>
+                <h3 class="es" style="margin-bottom: 1rem; font-family: var(--font-heading);">Empatía en Acción</h3>
+                <p class="en">Understanding individual athlete needs and providing emotional support during high-stress competitive moments.</p>
+                <p class="es">Comprender las necesidades individuales de los atletas y brindar apoyo emocional durante momentos competitivos de alto estrés.</p>
+            </div>
+
+            <div id="trait-inclusion" class="trait-content">
+                <h3 class="en" style="margin-bottom: 1rem; font-family: var(--font-heading);">Fostering Inclusion</h3>
+                <h3 class="es" style="margin-bottom: 1rem; font-family: var(--font-heading);">Fomentando la Inclusión</h3>
+                <p class="en">Creating an environment where every participant feels valued, ensuring activities are accessible to all ability levels.</p>
+                <p class="es">Crear un ambiente donde cada participante se sienta valorado, asegurando que las actividades sean accesibles para todos los niveles de habilidad.</p>
+            </div>
+
+            <div id="trait-adaptability" class="trait-content">
+                <h3 class="en" style="margin-bottom: 1rem; font-family: var(--font-heading);">Real-time Adaptability</h3>
+                <h3 class="es" style="margin-bottom: 1rem; font-family: var(--font-heading);">Adaptabilidad en Tiempo Real</h3>
+                <p class="en">Adjusting plans on the fly to accommodate unforeseen challenges or the immediate needs of the athletes.</p>
+                <p class="es">Ajustar planes sobre la marcha para acomodar desafíos imprevistos o las necesidades inmediatas de los atletas.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Architecture of Leadership Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

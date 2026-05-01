@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthesis & Reflection - The Architecture of Leadership</title>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700;800&family=Newsreader:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">ARCH.</a>
+        <div class="nav-links">
+            <a href="index.html" class="en">Home</a>
+            <a href="index.html" class="es">Inicio</a>
+            <button id="langToggle" class="lang-toggle">EN / ES</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero fade-in">
+            <h1 class="hero-title en">Synthesis & Reflection</h1>
+            <h1 class="hero-title es">Síntesis y Reflexión</h1>
+
+            <h2 class="hero-subtitle en">Why is service important?</h2>
+            <h2 class="hero-subtitle es">¿Por qué es importante el servicio?</h2>
+
+            <div class="photo-placeholder" style="box-shadow: 8px 8px 0 0 var(--navy);">
+                <span class="en">{Insert Photo Here: Final meaningful portrait or thematic image}</span>
+                <span class="es">{Insertar foto aquí: Retrato final significativo o imagen temática}</span>
+            </div>
+
+            <p class="body-text en">Service is the bridge between academic theory and human reality. It has helped me become a better citizen by teaching me that leadership isn't about authority, but about the "capacity for strategic and empathetic management". It has improved my mental health by providing a sense of purpose and connection to my city.</p>
+            <p class="body-text es">El servicio es el puente entre la teoría académica y la realidad humana. Me ha ayudado a ser un mejor ciudadano al enseñarme que el liderazgo no se trata de autoridad, sino de la "capacidad de gestión estratégica y empática". Ha mejorado mi salud mental al brindarme un sentido de propósito y conexión con mi ciudad.</p>
+        </section>
+
+        <section class="interactive-section fade-in">
+            <h2 class="interactive-title en">Leadership Interactive</h2>
+            <h2 class="interactive-title es">Interactivo de Liderazgo</h2>
+
+            <div class="traits-grid">
+                <button class="trait-btn active" data-target="trait-citizen">
+                    <span class="en">Better Citizen</span><span class="es">Mejor Ciudadano</span>
+                </button>
+                <button class="trait-btn" data-target="trait-health">
+                    <span class="en">Mental Health</span><span class="es">Salud Mental</span>
+                </button>
+                <button class="trait-btn" data-target="trait-theory">
+                    <span class="en">Academic Theory</span><span class="es">Teoría Académica</span>
+                </button>
+            </div>
+
+            <div id="trait-citizen" class="trait-content active">
+                <h3 class="en" style="margin-bottom: 1rem; font-family: var(--font-heading);">Civic Duty</h3>
+                <h3 class="es" style="margin-bottom: 1rem; font-family: var(--font-heading);">Deber Cívico</h3>
+                <p class="en">Learning that true leadership is a responsibility to the community, exercised through strategic empathy rather than top-down authority.</p>
+                <p class="es">Aprender que el verdadero liderazgo es una responsabilidad hacia la comunidad, ejercida a través de la empatía estratégica en lugar de la autoridad vertical.</p>
+            </div>
+
+            <div id="trait-health" class="trait-content">
+                <h3 class="en" style="margin-bottom: 1rem; font-family: var(--font-heading);">Sense of Purpose</h3>
+                <h3 class="es" style="margin-bottom: 1rem; font-family: var(--font-heading);">Sentido de Propósito</h3>
+                <p class="en">Grounding my personal well-being in actionable service, creating a tangible connection to the people and the city around me.</p>
+                <p class="es">Fundamentar mi bienestar personal en el servicio accionable, creando una conexión tangible con las personas y la ciudad que me rodea.</p>
+            </div>
+
+            <div id="trait-theory" class="trait-content">
+                <h3 class="en" style="margin-bottom: 1rem; font-family: var(--font-heading);">Human Reality</h3>
+                <h3 class="es" style="margin-bottom: 1rem; font-family: var(--font-heading);">Realidad Humana</h3>
+                <p class="en">Testing the boundaries of academic scholarship by applying theoretical knowledge to complex, real-world logistical and interpersonal challenges.</p>
+                <p class="es">Poner a prueba los límites de la erudición académica aplicando conocimientos teóricos a desafíos logísticos e interpersonales complejos del mundo real.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Architecture of Leadership Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
